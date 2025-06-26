@@ -23,6 +23,12 @@
             // 
             /**/
             #endregion
+
+            int t; // Declarition
+            t = 3;  // intialization 
+            int 3t = 2; // error
+            int string = 5;// error 
+            Console.WriteLine(t);
         }
 
         /// <summary>
