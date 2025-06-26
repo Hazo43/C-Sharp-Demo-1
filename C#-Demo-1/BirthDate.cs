@@ -8,7 +8,7 @@ namespace C__Demo_1
 {
     public struct BirthDate
     {
-
+        // video 5
         public int Day { get; set; }
         public int Month { get; set; }
         public int Year { get; set; }

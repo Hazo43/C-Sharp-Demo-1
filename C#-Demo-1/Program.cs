@@ -9,6 +9,7 @@ namespace C__Demo_1
 
         static void Main(string[] args)
         {
+            // video 2
             Console.WriteLine("Hello, World!");
             Print();
 
@@ -21,17 +22,36 @@ namespace C__Demo_1
             // single line coment 
             // int z = 20 ;
 
+            // video 3
             #region Comments
 
             // 
             /**/
             #endregion
 
+
+
+            // video 6
+            int x = 10;
+            x++;
+
+
+
+
+
+
+
+
+
+            // video 5
+
             Person person = new Person();
             WeekDays weekDays = WeekDays.Saturday;
-            
-            Int32 t = 0 ;   // = int 
-            t = 5;
+
+            //Int32 t = 0 ;   // = int 
+            //t = 5;
+
+            // video 4
 
             //int t; // Declarition
             //t = 3;  // intialization 
@@ -39,24 +59,35 @@ namespace C__Demo_1
             //int string = 5;// error 
             //Console.WriteLine(t);
 
+            // Video 4
             public WeekDays weekDays { get; set; }
-        public HttpStatusCode mypropaplyty { get; set; }    
+        public HttpStatusCode mypropaplyty { get; set; }
 
-        
+
+
+        // videp 3
 
         /// <summary>
         ///      و معناها بتلخص حاجه معينه  Function دي كومنت عادي بس بتتعمل برا ال 
         /// </summary>
+        /// 
+
+        // video 2
+
         public static void Print()
+
         {
-            
+
         }
 
+        // video 5
         public enum WeekDays
         {
             Saturday = 1,   // defult start 0
             sunday,
 
         }
+      
+    
     }
 }
