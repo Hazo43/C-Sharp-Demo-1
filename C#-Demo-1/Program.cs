@@ -94,6 +94,16 @@ namespace C__Demo_1
             Point point = new Point(10, 20);
             Console.WriteLine(point.GetType());  // => هيجيب اسم المشروع نفسو 
 
+
+
+
+            // Video 9
+            object obj = new object();
+
+            obj = 10;    // Stack هيخزن في ال 
+            obj = 1.5;   
+            obj = true;
+            obj = new Point(10, 20);  //    وهكذا   int  و هيسيب ال   Hup هيروج يخزن في ال 
         #endregion
 
 
