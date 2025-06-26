@@ -19,6 +19,17 @@ namespace C__Demo_1
         public int X {  get; set; }
         public int Y {  get; set; }
 
-        
+       // video 8
+        public override string ToString()
+        {
+            return $"X={X}, Y={Y}";
+        }
+
+        public override bool Equals(object? obj)
+        {
+            Point point = (Point)obj;
+
+            return this.X==point.X && this.Y==point.Y ;
+        }
     }
 }
